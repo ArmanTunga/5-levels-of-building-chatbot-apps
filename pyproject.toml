@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "level-1-not-even-a-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Arman Tunga <armantunga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+haystack-ai = "^2.4.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
