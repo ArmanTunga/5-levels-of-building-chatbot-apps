@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "level-2-chatbot-with-memory-and-retrieval"
+name = "level-3-text2sql-chatbot"
 version = "0.1.0"
 description = ""
 authors = ["Arman Tunga <armantunga@gmail.com>"]
@@ -7,9 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-haystack-ai = "^2.4.0"
-python-dotenv = "^1.0.1"
-gradio = "^4.42.0"
 
 
 [build-system]
