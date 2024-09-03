@@ -1,0 +1,20 @@
+services:
+  postgres_db:
+    image: postgres:14
+    restart: always
+    container_name: chatbot_db
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-chatbot}
+      POSTGRES_USER: ${POSTGRES_USER:-chatbot_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - chatbot_db_data:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql:ro # Read-only mode for safety
+      - ./data:/data_folder_inside_docker_container  # To mount the local data directory
+
+volumes:
+  chatbot_db_data:

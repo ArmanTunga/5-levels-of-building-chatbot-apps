@@ -13,3 +13,8 @@ Walkthrough of Level 1 Chatbot: [Medium Article Link](https://medium.com/@armant
 ![Simple illustration of level 2 chatbot.. chatbot with memory and retrieval](images/level_2/chatbot-with-memory-and-retrieval.jpg "Simple illustration of level 2 chatbot.. chatbot with memory and retrieval")
 
 Walkthrough of Level 2 Chatbot: [Medium Article Link](https://medium.com/@armantunga/5-levels-of-building-chatbot-apps-with-haystack-level-2-437a207ae784)
+
+## Level 3 Chatbot: Text2SQL Chatbot
+![Simple illustration of level 3 chatbot.. Text2SQL Chatbot](images/level_3/illustration-of-apps-flow-min.jpg "Simple illustration of level 3 chatbot.. Text2SQL Chatbot")
+
+Walkthrough of Level 3 Chatbot: [Medium Article Link](https://medium.com/@armantunga/5-levels-of-building-chatbot-apps-with-haystack-level-3-cabb386dc8de)
